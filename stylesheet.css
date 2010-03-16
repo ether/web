@@ -1,0 +1,249 @@
+/* Colors */
+body {
+ background-color: #242424;
+}
+
+.blurb,
+.menu {
+ background-color: #000000;
+}
+
+.blurb * {
+ color: #ffffff;
+}
+
+.corner_outer {
+ background-color: #242424;
+}
+
+.corner_inner {
+ background-color: #000000;
+}
+
+.menu a {
+ background-color: #2c2c39;
+ border-color: #7474b1;
+ color: #e6e6e6;
+}
+
+.menu a:hover {
+/* background-color: #373747; */
+ border-color: #a3a3e4;
+ color: #ffffff;
+}
+
+.download_box {
+ background-color: #440f0f;
+}
+
+.download_box .download_box_inner {
+ background-color: #808080;
+ color: #f2f2f2;
+}
+
+.download_box .download_box_inner * {
+ color: #f2f2f2;
+}
+
+.download_box h1 {
+ color: #bababa;
+}
+
+.main {
+ background-color: #b3b3b3;
+ color: #4d4d4d;
+}
+
+.main * {
+ color: #4d4d4d;
+}
+
+.main .features tr td {
+ border-color: #4d4d4d;
+}
+
+.main .screenshot {
+ background-color: #808080;
+ color: #4d4d4d;
+}
+
+
+/* Text and font */
+body {
+ font-family: sans-serif;
+}
+
+.menu a {
+ text-decoration: none;
+}
+
+.download_box a {
+ text-decoration: none;
+}
+
+.main h1 {
+ font-family: serif;
+ font-style: italic;
+}
+
+
+/* Sizes and stuff */
+* {
+ -moz-border-radius-topleft: 6pt;
+ -moz-border-radius-topright: 6pt;
+ -moz-border-radius-bottomleft: 6pt;
+ -moz-border-radius-bottomright: 6pt;
+
+ -webkit-border-top-left-radius: 6pt;
+ -webkit-border-top-right-radius: 6pt;
+ -webkit-border-bottom-left-radius: 6pt;
+ -webkit-border-bottom-right-radius: 6pt;
+}
+
+img {
+ border: none;
+}
+
+.blurb {
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 120pt;
+ padding-top: 10pt;
+ padding-bottom: 80pt;
+ text-align: center;
+ font-size: 14pt;
+}
+
+.blurb img {
+ padding-bottom: 20pt;
+}
+
+.corner_outer {
+ position: absolute;
+ z-index: 1;
+ height: 40pt;
+ left: 120pt;
+ top: 54pt;
+ width: 40pt;
+}
+
+.corner_inner {
+ position: absolute;
+ z-index: 1;
+ height: 40pt;
+ left: 100pt;
+ top: 35pt;
+ width: 40pt;
+}
+
+.menu {
+ position: absolute;
+ z-index: 2;
+ left: 80pt;
+ top: 0;
+ right: 25pt;
+ padding-top: 20pt;
+ padding-bottom: 20pt;
+ padding-left: 10pt;
+ padding-right: 10pt;
+}
+
+.menu a {
+ border-style: solid;
+ border-width: 1pt;
+ font-size: 10pt;
+ padding-top: 3pt;
+ padding-bottom: 3pt;
+ padding-left: 6pt;
+ padding-right: 6pt;
+}
+
+.download_box {
+ position: absolute;
+ z-index: 3;
+ top: 20pt;
+ right: 50pt;
+ width: 180pt;
+ padding: 8pt;
+}
+
+.download_box h1 {
+ text-align: center;
+ font-size: 14pt;
+ margin-top: 8pt;
+ margin-bottom: 0;
+}
+
+.download_box .download_box_inner {
+ padding-left: 10pt;
+ padding-right: 10pt;
+ padding-top: 30pt;
+ padding-bottom: 30pt;
+}
+
+.main {
+ position: absolute;
+ z-index: 2;
+ top: 75pt;
+ left: 145pt;
+ right: 25pt;
+ padding: 20pt;
+ font-size: 8pt;
+}
+
+.main * {
+ font-size: 8pt;
+}
+
+.main h1 {
+ font-size: 14pt;
+}
+
+.main .features {
+ margin-right: 210pt;
+ border-collapse: collapse;
+}
+
+
+.main .features tr td {
+ border-width: 1px;
+ padding: 5pt;
+}
+
+.main .features tr td.col_2 {
+ border-left-style: solid;
+}
+
+.main .features tr.row_2 td {
+ border-top-style: solid;
+}
+
+.main .screenshot {
+ float: right;
+ margin-left: 8pt;
+ margin-bottom: 8pt;
+ padding: 4pt;
+}
+
+.main .screenshot object {
+ width: 200pt;
+ height: 180pt;
+ display: block;
+}
+
+.main .screenshot h2 {
+ width: 200pt;
+ text-align: center;
+ font-size: 14pt;
+ margin-top: 8pt;
+ margin-bottom: 0;
+}
+
+.main .about {
+ bottom: -35pt;
+ left: -145pt;
+ right: 0;
+ position: absolute;
+ text-align: center;
+}

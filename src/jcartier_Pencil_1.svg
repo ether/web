@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="56.47858" height="37.09087" id="svg3236" sodipodi:version="0.32" inkscape:version="0.45.1" sodipodi:docbase="/Users/johnolsen/Desktop" sodipodi:docname="jcartier_Pencil.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" version="1.0">
+  <defs id="defs3238">
+    <linearGradient id="linearGradient6173">
+      <stop style="stop-color: rgb(255, 0, 0); stop-opacity: 1;" offset="0" id="stop6175"/>
+      <stop id="stop6181" offset="0.5" style="stop-color: rgb(75, 255, 0); stop-opacity: 1;"/>
+      <stop style="stop-color: rgb(246, 255, 0); stop-opacity: 1;" offset="0.75" id="stop6183"/>
+      <stop id="stop6185" offset="0.875" style="stop-color: rgb(255, 0, 232); stop-opacity: 1;"/>
+      <stop style="stop-color: rgb(0, 15, 255); stop-opacity: 1;" offset="1" id="stop6177"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient6173" id="linearGradient6179" x1="344.5" y1="530.35596" x2="370.69302" y2="530.35596" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.866025, -0.5, 0.5, 0.866025, -216.005, 243.296)"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="11.2" inkscape:cx="375" inkscape:cy="538.60399" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:object-points="true" inkscape:object-bbox="true" objecttolerance="10000" inkscape:object-nodes="true" inkscape:grid-points="true" gridtolerance="10000" inkscape:guide-points="true" guidetolerance="10000" inkscape:window-width="1280" inkscape:window-height="977" inkscape:window-x="-4" inkscape:window-y="-4"/>
+  <metadata id="metadata3241">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1" transform="translate(-340.94, -499.536)">
+    <path style="fill: url(#linearGradient6179) rgb(0, 0, 0); fill-opacity: 1; fill-rule: evenodd; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;" d="M 370.605,519.33567 C 368.59366,518.44842 364.85741,516.88054 363.77488,517.50554 C 362.69235,518.13054 369.06494,521.6682 366.27488,521.83567 C 363.48481,522.00314 354.77969,516.92542 352.61462,518.17542 C 350.44956,519.42542 360.40469,526.6682 357.61462,526.83567 C 354.82456,527.00314 343.53015,517.44064 341.45437,518.84529 C 339.37859,520.24994 343.90061,528.07628 349.31151,532.45427 C 354.72242,536.83225 361.68221,536.98155 363.09799,536.35725 C 364.51377,535.73295 355.56309,531.2493 354.97462,529.95705 C 354.38614,528.6648 359.25924,532.41539 360.74408,531.18823 C 362.22893,529.96108 359.56796,525.9351 360.914,525.04845 C 362.26004,524.16181 364.74147,527.88223 366.12826,527.64166 C 367.51504,527.40108 365.40065,524.87802 366.46114,524.08613 C 367.52164,523.29424 369.03045,525.23201 370.37023,524.4741 C 371.71001,523.71618 371.76157,522.33912 371.82025,521.05451 C 371.87894,519.7699 372.61634,520.22291 370.605,519.33567 z " id="path5202" sodipodi:nodetypes="czzzzzzzzzzzzzzz" inkscape:export-xdpi="255.42" inkscape:export-ydpi="255.42" inkscape:export-filename="C:\Documents and Settings\JCARTIER\pathc.png"/>
+    <g id="g5194" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 486.636, -112.93)" inkscape:export-filename="C:\Documents and Settings\JCARTIER\pathb.png" inkscape:export-xdpi="255.42" inkscape:export-ydpi="255.42">
+      <path sodipodi:nodetypes="cssss" id="path3244" d="M 365,521.36218 C 368,526.36218 364.99738,531.36748 365,531.36218 C 365.02413,531.31358 375,526.36218 375,521.36218 C 375,516.36218 372.5,516.36218 370,516.36218 C 367.5,516.36218 362.42752,517.07471 365,521.36218 z " style="fill: rgb(32, 74, 135); fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"/>
+      <path sodipodi:nodetypes="czzz" id="path3248" d="M 365,512.63004 C 366.25,516.38004 373.75,516.17914 375,512.36218 C 376.25,508.54521 372.46169,497.29713 369.96169,497.36409 C 367.46169,497.43106 363.75,508.88004 365,512.63004 z " style="fill: rgb(143, 89, 2); fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"/>
+      <path id="path3246" d="M 365,517.36218 L 375,517.36218 L 375,512.36218 L 365,512.36218 L 365,517.36218 z " style="fill: rgb(186, 189, 182); fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"/>
+      <path sodipodi:nodetypes="czzz" id="path3250" d="M 371,499.36218 C 372,499.36218 374,509.36218 374,510.36218 C 374,511.36218 370,511.36218 370,510.36218 C 370,509.36218 370,499.36218 371,499.36218 z " style="fill: rgb(193, 125, 17); fill-rule: evenodd; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"/>
+      <path sodipodi:nodetypes="cszs" id="path4221" d="M 370.23061,519.4437 C 370.22547,518.44228 373.24568,518.37977 373.23061,519.4437 C 373.18903,522.37952 369.9318,526.36218 369.1818,526.36218 C 368.4318,526.36218 370.24568,522.37977 370.23061,519.4437 z " style="fill: rgb(114, 159, 207); fill-rule: evenodd; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"/>
+      <path id="path5192" d="M 374,513.36218 L 372,513.36218 L 372,516.36218 L 374,516.36218 L 374,513.36218 z " style="fill: rgb(238, 238, 236); fill-rule: evenodd; stroke: none; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1;"/>
+    </g>
+  </g>
+</svg>
