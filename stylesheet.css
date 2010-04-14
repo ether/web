@@ -4,7 +4,8 @@ body {
 }
 
 .blurb,
-.menu {
+.menu,
+.corner_inner {
  background-color: #000000;
 }
 
@@ -16,10 +17,6 @@ body {
  background-color: #242424;
 }
 
-.corner_inner {
- background-color: #000000;
-}
-
 .menu a {
  background-color: #2c2c39;
  border-color: #7474b1;
@@ -27,50 +24,51 @@ body {
 }
 
 .menu a:hover {
-/* background-color: #373747; */
+ background-color: #373747;
  border-color: #a3a3e4;
  color: #ffffff;
 }
 
 .download_box {
  background-color: #440f0f;
+ color: #f2f2f2;
 }
 
 .download_box .download_box_inner {
  background-color: #808080;
- color: #f2f2f2;
 }
 
 .download_box .download_box_inner * {
  color: #f2f2f2;
 }
 
-.download_box h1 {
- color: #bababa;
-}
-
 .main {
- background-color: #b3b3b3;
- color: #4d4d4d;
-}
-
-.main * {
- color: #4d4d4d;
+ background-color: #cccccc;
 }
 
 .main .features tr td {
- border-color: #4d4d4d;
+ border-color: #808080;
 }
 
-.main .screenshot {
+.screenshot {
  background-color: #808080;
- color: #4d4d4d;
+}
+
+.about * {
+ color:#808080;
 }
 
 
 /* Text and font */
 body {
- font-family: sans-serif;
+ font-family: Arial,Verdana,sans-serif;
+ font-size: 90%;
+}
+
+h1,
+h2,
+h3 {
+ font-size: 130%;
 }
 
 .menu a {
@@ -82,26 +80,38 @@ body {
 }
 
 .main h1 {
- font-family: serif;
  font-style: italic;
 }
 
+a.readmore {
+ font-size:60%;
+ text-decoration:none;
+ color: #808080;
+}
 
-/* Sizes and stuff */
-* {
- -moz-border-radius-topleft: 6pt;
- -moz-border-radius-topright: 6pt;
- -moz-border-radius-bottomleft: 6pt;
- -moz-border-radius-bottomright: 6pt;
 
- -webkit-border-top-left-radius: 6pt;
- -webkit-border-top-right-radius: 6pt;
- -webkit-border-bottom-left-radius: 6pt;
- -webkit-border-bottom-right-radius: 6pt;
+/* Sizes and positioning */
+body * {
+ -moz-border-radius: 6pt;
+ -webkit-border-radius: 6pt;
 }
 
 img {
  border: none;
+}
+
+p {
+ margin-top: 0pt;
+}
+
+h1 {
+ margin-top: 16pt;
+ margin-bottom: 4pt;
+}
+
+h2,
+h3 {
+ margin:0pt;
 }
 
 .blurb {
@@ -144,9 +154,9 @@ img {
  top: 0;
  right: 25pt;
  padding-top: 20pt;
- padding-bottom: 20pt;
- padding-left: 10pt;
- padding-right: 10pt;
+ padding-bottom: 22pt;
+ padding-left: 65pt;
+ padding-right: 22pt;
 }
 
 .menu a {
@@ -157,29 +167,54 @@ img {
  padding-bottom: 3pt;
  padding-left: 6pt;
  padding-right: 6pt;
+
+ margin-top: 0pt;
+ margin-bottom: 0pt;
+ margin-left: 3pt;
+ margin-right: 3pt;
 }
 
-.download_box {
+.download_box ,
+.screenshot {
  position: absolute;
  z-index: 3;
- top: 20pt;
- right: 50pt;
- width: 180pt;
+ right: 0pt;
+ margin-right: 50pt; /* Is there an IE-bug on calculating right-side offset, scrollbars, ... ? IE does this *differently* */
+ width: 200pt;
  padding: 8pt;
 }
 
-.download_box h1 {
+.download_box h2,
+.screenshot h2 {
  text-align: center;
- font-size: 14pt;
- margin-top: 8pt;
- margin-bottom: 0;
+ margin-top: 3pt;
+ margin-bottom: 6pt;
 }
 
-.download_box .download_box_inner {
+.download_box {
+ top: 20pt;
+}
+
+.download_items {
  padding-left: 10pt;
- padding-right: 10pt;
- padding-top: 30pt;
- padding-bottom: 30pt;
+ padding-top: 5pt;
+ padding-bottom: 10pt;
+}
+
+.download_items img {
+ vertical-align: middle;
+ padding-top: 8pt;
+}
+
+.screenshot {
+ top: 220pt;
+ height: expression('215pt'); /* only IE(7?) needs this one. Others are better off calculating height automatically */
+}
+
+.screenshot object {
+ display: block; /* <-- important, probably also an ugly hack/trick */
+ width: 200pt;
+ height: 180pt;
 }
 
 .main {
@@ -189,19 +224,13 @@ img {
  left: 145pt;
  right: 25pt;
  padding: 20pt;
- font-size: 8pt;
 }
 
-.main * {
- font-size: 8pt;
-}
-
-.main h1 {
- font-size: 14pt;
+.main_content {
+ margin-right: 230pt;
 }
 
 .main .features {
- margin-right: 210pt;
  border-collapse: collapse;
 }
 
@@ -219,31 +248,10 @@ img {
  border-top-style: solid;
 }
 
-.main .screenshot {
- float: right;
- margin-left: 8pt;
- margin-bottom: 8pt;
- padding: 4pt;
-}
-
-.main .screenshot object {
- width: 200pt;
- height: 180pt;
- display: block;
-}
-
-.main .screenshot h2 {
- width: 200pt;
- text-align: center;
- font-size: 14pt;
- margin-top: 8pt;
- margin-bottom: 0;
-}
-
-.main .about {
+.about {
  bottom: -35pt;
- left: -145pt;
- right: 0;
+ margin-bottom:15pt;
+ width:100%;
  position: absolute;
  text-align: center;
 }
